@@ -1,0 +1,78 @@
+  
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Table</title>
+    <link rel="stylesheet" type="text/css" href="table.css">
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Lecture Id</th>
+        <th>Lecturer Name</th>
+        <th>Credit</th>
+        <th>Availability</th>
+        <th>Ders Saati</th>
+    </tr>
+    <tr>
+      <td>MIS301</td>
+      <td>Musab Talha Akpınar</td>
+      <td>5</td>
+      <td>28/60</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>MIS303</td>
+      <td>Ömür Akdemir</td>
+      <td>8</td>
+      <td>167/90</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>MIS342</td>
+      <td>Vildan Ateş</td>
+      <td>3</td>
+      <td>15/30</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>MIS404</td>
+      <td>Derya Fındık</td>
+      <td>6</td>
+      <td>90/999</td>
+      <td>8</td>
+    </tr>
+    </table>
+  </body>
+</html>
+<section id="registration">
+  <h2>Course Registration</h2>
+  <form action="submit_registration.php" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    
+    <label for="event">Select Course to Enroll:</label>
+    <select id="event" name="event" aria-placeholder="select">
+      <option value="conference">MIS301</option>
+      <option value="workshop">MIS303</option>
+      <option value="conference">MIS342</option>
+      <option value="conference">MIS404</option>
+    </select><br>
+    
+    <label for="additional-info">Additional Information:</label>
+    <textarea id="additional-info" name="additional-info" rows="4"></textarea><br>
+    
+    <input type="submit" value="Register">
+  </form>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <form action="submit_form.php" method="POST">
+    <label for="
+
+
